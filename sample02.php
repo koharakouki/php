@@ -20,7 +20,7 @@
 <pre>
 <?php
 date_default_timezone_set('Asia/Tokyo');
-print(date('G時 i分 s秒'));
+print("現在は" . date('G時 i分 s秒'));
 ?>
 </pre>
 </main>
