@@ -18,14 +18,9 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php 
-$i = 1;
-
-while($i <= 365) {
-  print($i . "\n");
-  $i = $i + 1;  
-}
-
+<?php
+$week_name = ['日', '月', '火', '水', '木', '金', '土'];
+print($week_name[date('w')]);
 ?>
 </pre>
 </main>
