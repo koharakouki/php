@@ -16,9 +16,10 @@
 </header>
 
 <main>
-<h2>Practice</h2>
+<h2>Practice1</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+<?php echo date("Y-m-d H:i:s",strtotime("now")); ?>
 </pre>
 </main>
 </body>    
