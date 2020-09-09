@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>簡易掲示板</title>
+  </head>
+
+  <body>
+    <p>
+      <form method="POST" action="select.php">
+        <div>メッセージを表示します</div>
+        <input type="submit" value="メッセージ表示">
+      </form>
+    </p>
+    <p>
+      <form method="POST" action="insert.php">
+        <div>
+          名前を入力して<input type="text" name="a1">
+        </div>
+        <div>メッセージを入力して<input type="text" name="a2" size=150></div>
+        <input type="submit" value="メッセージを送信">
+      </form>
+    </p>
+
+    <p>
+      <form method="POST" action="delete.php">
+        <div>
+          削除する番号を入力して<input type="text" name="b1">
+        </div>
+        <input type="submit" value="削除番号送信">
+      </form>
+    </p>
+
+    <p>
+      <form method="POST" action="search.php">
+        <div>
+          検索のキーワードを入力して<input type="text" name="c1">
+        </div>
+        <input type="submit" value="検索">
+      </form>
+    </p>
+  </body>
+</html>
